@@ -1,23 +1,14 @@
 {
-    "name": "laravel-notification-channels/hypersender",
-    "description": "Telegram Notifications Channel for Laravel",
+    "name": "laravell-notification-channels/hypersender",
+    "description": "HyperSender Whatsapp Notifications Channel for Laravel",
     "license": "MIT",
     "keywords": [
-        "telegram notification",
         "laravel",
-        "telegram",
         "notification",
-        "telegram notifications channel"
+        "channel",
+        "hypersender"
     ],
-    "authors": [
-        {
-            "name": "Irfaq Syed",
-            "email": "github@lukonet.net",
-            "homepage": "https://lukonet.com",
-            "role": "Developer"
-        }
-    ],
-    "homepage": "https://github.com/laravel-notification-channels/telegram",
+    "authors": [],
     "require": {
         "php": "^8.2",
         "ext-json": "*",
