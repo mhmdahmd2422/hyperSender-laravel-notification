@@ -1,5 +1,5 @@
 {
-    "name": "laravel-notification/hypersender",
+    "name": "mhmdahmd/hypersender",
     "description": "HyperSender Notifications Channel for Laravel",
     "type": "library",
     "license": "MIT",
