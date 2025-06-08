@@ -1,0 +1,48 @@
+{
+    "name": "laravel-notification-channels/hypersender",
+    "description": "HyperSender Notifications Channel for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "notification",
+        "channel",
+        "hypersender",
+        "notifications",
+        "hyper-sender"
+    ],
+    "authors": [
+        {
+            "name": "Mohamed ElMaadawi",
+            "email": "mhmdahmd2422@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": ">=9.0",
+        "ext-json": "*",
+        "illuminate/contracts": "^11.0 || ^12.0",
+        "illuminate/notifications": "^11.0 || ^12.0",
+        "illuminate/support": "^11.0 || ^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.0@dev"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "NotificationChannels\\HyperSender\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NotificationChannels\\HyperSender\\HyperSenderServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": "@php ./vendor/bin/testbench package:discover --ansi"
+    }
+}
